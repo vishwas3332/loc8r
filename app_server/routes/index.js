@@ -12,6 +12,7 @@ router.get('/', function(req, res, next) {
 router.get('/', ctrlLocations.homelist);
 router.get('/location', ctrlLocations.locationInfo);
 router.get('/location/review/new', ctrlLocations.addReview);
+
 /* Other pages */
 router.get('/about', ctrlOthers.about);
 
